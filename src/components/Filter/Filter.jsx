@@ -10,6 +10,7 @@ export default function Filter({ filterHandler, filter }) {
                 onChange={filterHandler}
                 type="text"
                 value={filter}
+                placeholder="Start typing the name..."
             ></input>
         </label>
     )
